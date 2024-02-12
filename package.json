@@ -1,5 +1,5 @@
 {
-  "name": "project_2",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0"
+    "@next/font": "13.1.1",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "axios": "^1.6.7",
+    "crypto-js": "^4.1.1",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.4",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.3.0",
+    "mongoose": "^6.9.0",
+    "next": "13.1.1",
+    "paytmchecksum": "^1.5.0",
+    "razorpay": "^2.8.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-toastify": "^9.1.2",
+    "react-top-loading-bar": "^2.3.1",
+    "shortid": "^2.2.16",
+    "typescript": "4.9.4",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
   }
 }
